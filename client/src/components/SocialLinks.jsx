@@ -23,6 +23,24 @@ export default function SocialLinks({ links, className = '' }) {
       icon: '💻',
     },
     {
+      label: 'Naukri',
+      value: 'Naukri Profile',
+      href: 'https://www.naukri.com/mnjuser/homepage',
+      icon: '📄',
+    },
+    {
+      label: 'Instagram',
+      value: 's.o.n.u03',
+      href: 'https://instagram.com/s.o.n.u03',
+      icon: '📸',
+    },
+    {
+      label: 'WhatsApp',
+      value: '+91 7030087366',
+      href: 'https://wa.me/917030087366',
+      icon: '💬',
+    },
+    {
       label: 'Phone',
       value: '+91 7030087366',
       href: 'tel:+917030087366',

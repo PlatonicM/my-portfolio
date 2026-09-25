@@ -39,7 +39,7 @@ export default function Home() {
               to="/projects"
               className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 hover:from-amber-300 hover:to-yellow-300 text-slate-950 font-black text-sm tracking-wide shadow-lg hover:shadow-amber-500/30 transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
             >
-              <span>🚀</span> Explore Projects ({resume?.projects?.length})
+              <span>🚀</span> Explore Projects
             </Link>
 
             <Link

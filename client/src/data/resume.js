@@ -7,6 +7,9 @@ const resumeData = {
     email: 'mrunalchaudhari666@gmail.com',
     linkedin: 'https://linkedin.com/in/mrunal-chaudhari03',
     github: 'https://github.com/PlatonicM',
+    naukri: 'https://www.naukri.com/mnjuser/homepage',
+    instagram: 'https://instagram.com/s.o.n.u03',
+    whatsapp: 'https://wa.me/917030087366',
     photo: '/profile.png',
     summary:
       'Software Engineer with 2 years of experience building scalable web applications, REST APIs, business platforms, and AI-powered solutions. Skilled in Python, Django, FastAPI, Next.js, React, and TypeScript with expertise in backend development, API integration, authentication, database optimization, asynchronous processing, cloud storage, AI/LLM applications, RAG, document intelligence, and workflow automation.',
@@ -115,10 +118,13 @@ const resumeData = {
     period: '2019 – 2022',
   },
   links: [
-    { label: 'Email', value: 'mrunalchaudhari666@gmail.com', href: 'mailto:mrunalchaudhari666@gmail.com' },
-    { label: 'Phone', value: '+91 7030087366', href: 'tel:+917030087366' },
-    { label: 'LinkedIn', value: 'mrunal-chaudhari03', href: 'https://linkedin.com/in/mrunal-chaudhari03' },
-    { label: 'GitHub', value: 'PlatonicM', href: 'https://github.com/PlatonicM' },
+    { label: 'Email', value: 'mrunalchaudhari666@gmail.com', href: 'mailto:mrunalchaudhari666@gmail.com', icon: '✉️' },
+    { label: 'Phone', value: '+91 7030087366', href: 'tel:+917030087366', icon: '📞' },
+    { label: 'WhatsApp', value: '+91 7030087366', href: 'https://wa.me/917030087366', icon: '💬' },
+    { label: 'LinkedIn', value: 'mrunal-chaudhari03', href: 'https://linkedin.com/in/mrunal-chaudhari03', icon: '💼' },
+    { label: 'GitHub', value: 'PlatonicM', href: 'https://github.com/PlatonicM', icon: '💻' },
+    { label: 'Naukri', value: 'Naukri Profile', href: 'https://www.naukri.com', icon: '📄' },
+    { label: 'Instagram', value: 'Instagram Profile', href: 'https://instagram.com', icon: '📸' },
   ],
 };
 

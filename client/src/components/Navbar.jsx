@@ -21,7 +21,7 @@ export default function Navbar() {
   const name = data?.profile?.name || 'Mrunal Chaudhari';
 
   return (
-    <nav className="fixed top-0 inset-x-0 z-[9999] px-3 py-3 sm:px-6">
+    <nav className="fixed top-0 inset-x-0 z-40 px-3 py-3 sm:px-6">
       <div className="max-w-6xl mx-auto rounded-2xl bg-slate-900/95 border-2 border-amber-400/40 backdrop-blur-2xl shadow-[0_0_30px_rgba(245,158,11,0.2)] flex items-center justify-between px-4 py-2.5 sm:px-6">
         {/* Brand Logo with Glowing Avatar */}
         <Link to="/" className="flex items-center gap-2.5 sm:gap-3 group min-w-0">
@@ -104,7 +104,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden max-w-6xl mx-auto mt-2 rounded-2xl bg-slate-900/98 border-2 border-amber-400/40 backdrop-blur-2xl p-4 shadow-2xl space-y-2 max-h-[80vh] overflow-y-auto z-[10000]"
+            className="md:hidden max-w-6xl mx-auto mt-2 rounded-2xl bg-slate-900/98 border-2 border-amber-400/40 backdrop-blur-2xl p-4 shadow-2xl space-y-2 max-h-[80vh] overflow-y-auto z-50"
           >
             {navLinks.map((link) => (
               <NavLink
