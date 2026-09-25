@@ -1,0 +1,126 @@
+const resumeData = {
+  profile: {
+    name: 'Mrunal A. Chaudhari',
+    title: 'Software Engineer | Full-Stack Developer',
+    location: 'Nagpur, Maharashtra',
+    phone: '+91 7030087366',
+    email: 'mrunalchaudhari666@gmail.com',
+    linkedin: 'https://linkedin.com/in/mrunal-chaudhari03',
+    github: 'https://github.com/PlatonicM',
+    photo: '/profile.png',
+    summary:
+      'Software Engineer with 2 years of experience building scalable web applications, REST APIs, business platforms, and AI-powered solutions. Skilled in Python, Django, FastAPI, Next.js, React, and TypeScript with expertise in backend development, API integration, authentication, database optimization, asynchronous processing, cloud storage, AI/LLM applications, RAG, document intelligence, and workflow automation.',
+  },
+  skills: {
+    Languages: ['Python', 'JavaScript', 'TypeScript'],
+    Frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vite', 'ShadCN UI', 'Framer Motion'],
+    Backend: ['Django', 'Django REST Framework (DRF)', 'FastAPI', 'REST APIs', 'JWT Authentication', 'RBAC', 'API Integration'],
+    Databases: ['PostgreSQL', 'MongoDB', 'Redis'],
+    'Tools & Cloud': ['AWS S3', 'Docker', 'Celery', 'Jira', 'Excel', 'Git', 'GitHub', 'Postman'],
+    'AI Tools': ['AI/LLM Applications', 'RAG', 'AI Agents', 'OCR', 'Knowledge Extraction', 'ML', 'Prompt Engineering', 'Semantic Search'],
+  },
+  experience: [
+    {
+      company: 'Insightful Mentoring Network Pvt. Ltd.',
+      role: 'Software Engineer | Full-Stack Developer',
+      period: 'Sept 2024 – Aug 2026',
+      location: 'Faridabad, Haryana',
+      points: [
+        'Designed and implemented secure REST APIs for EdTech, Social Networking, AI Automation, and SaaS platforms using Python.',
+        'Contributed to application architecture, backend development, deployment, and production support.',
+        'Developed modular architecture using service, repository, and storage-adapter layers.',
+        'Built reusable backend modules and service components for better maintainability.',
+        'Designed and optimized PostgreSQL schemas, indexes, and queries.',
+        'Integrated AWS S3 for media and document storage.',
+        'Implemented JWT authentication and Role-Based Access Control (RBAC).',
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: 'ExamForge-AI',
+      subtitle: 'AI-Powered Exam Preparation Platform',
+      desc: 'Developed responsive frontend workflows for goal management, document library, notes, flashcards, and progress tracking. Built reusable React/Next.js components with form validation and client-side state handling.',
+      stack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'React Hook Form', 'Zod', 'TanStack Query', 'AI/LLM', 'OCR'],
+      github: 'https://github.com/Aniket-Athanikar/Exam_Forge',
+    },
+    {
+      name: 'AI-BOS',
+      subtitle: 'AI Business Operating System',
+      desc: 'Developed a multi-tenant AI-powered SaaS platform integrating CRM, Sales, Marketing, and analytics. Built RAG workflows for enterprise document intelligence with lead scoring, churn prediction, and revenue forecasting.',
+      stack: ['FastAPI', 'Next.js', 'TypeScript', 'Tailwind CSS', 'MongoDB', 'Redis', 'AI Agents', 'RAG', 'Gemini API'],
+      github: 'https://github.com/PlatonicM',
+    },
+    {
+      name: 'ATS-Resume-Builder',
+      subtitle: 'ATS-Optimized Resume Builder & Match Evaluator',
+      desc: 'Engineered an ATS-friendly resume creation platform. Implemented automated keyword extraction, real-time match scoring against job descriptions, PDF compilation engine, and structural formatting checks to maximize ATS compliance.',
+      stack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python', 'NLP', 'PDF Engine', 'Zod'],
+      github: 'https://github.com/PlatonicM/ATS-Resume-Builder',
+    },
+    {
+      name: 'Mentor',
+      subtitle: 'High-Level IT Industry E-Learning & Mentorship Platform',
+      desc: 'Developed an e-learning and developer mentorship platform for IT industry courses. Engineered course management workflows, interactive video modules, student-mentor live Q&A, assignment submission systems, and skill certification.',
+      stack: ['React', 'Next.js', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT Auth', 'REST APIs'],
+      github: 'https://github.com/PlatonicM/Mnetor',
+    },
+    {
+      name: 'AgentForge',
+      subtitle: 'Autonomous AI Agent & Multi-Agent Orchestration Framework',
+      desc: 'Architected a multi-agent AI orchestration platform. Designed DAG-based agent execution graphs, function-calling tool registries, persistent vector memory, and visual control dashboards for complex autonomous workflows.',
+      stack: ['Python', 'FastAPI', 'React', 'TypeScript', 'LangChain', 'LlamaIndex', 'Vector DB', 'Redis', 'Gemini API', 'Docker'],
+      github: 'https://github.com/Aniket-Athanikar/Agentforge',
+    },
+    {
+      name: 'FreshVegee',
+      subtitle: 'Direct Farm-to-Door Fresh Produce E-Commerce Platform',
+      desc: 'Built a responsive fresh produce e-commerce platform with real-time inventory tracking, category filtering, cart management, checkout integration, and order status updates.',
+      stack: ['React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Redux', 'Stripe API'],
+      github: 'https://github.com/PlatonicM/FreshVegee',
+    },
+    {
+      name: 'Amazon-Scraper',
+      subtitle: 'High-Performance E-Commerce Data Scraping & Price Tracker API',
+      desc: 'Engineered an automated Amazon web scraper and price intelligence pipeline. Supports headless browser rendering, proxy rotation, anti-bot bypass, structured product data extraction, and real-time price alerts.',
+      stack: ['Python', 'Playwright', 'FastAPI', 'BeautifulSoup4', 'Redis', 'PostgreSQL', 'Docker', 'Asyncio'],
+      github: 'https://github.com/PlatonicM/amazon-scraper',
+    },
+    {
+      name: 'SugarRush',
+      subtitle: 'Interactive Gourmet Confectionery & Bakery E-Store',
+      desc: 'Designed and developed an interactive online bakery and confectionery platform featuring customized cake builders, subscription boxes, interactive dessert menus, and order scheduling.',
+      stack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express', 'MongoDB', 'JWT Auth'],
+      github: 'https://github.com/PlatonicM/SugarRush',
+    },
+    {
+      name: 'Vegee',
+      subtitle: 'Smart Fresh Vegetables & Organic Grocery Supply Platform',
+      desc: 'Developed a modern fresh vegetable and organic produce management web application with interactive product browsing, automated pricing tiers, subscription delivery options, and inventory controls.',
+      stack: ['React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Python', 'PostgreSQL', 'Redis'],
+      github: 'https://github.com/PlatonicM/Vegee',
+    },
+    {
+      name: 'AI-Growth-Engine',
+      subtitle: 'AI-Driven Marketing Automation & Customer Growth Platform',
+      desc: 'Architected an intelligent growth and marketing automation engine. Utilizes predictive analytics, customer segmentation, automated email campaign triggers, and AI-driven copy generation to boost user retention.',
+      stack: ['FastAPI', 'Python', 'Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'RAG', 'LLM API', 'PostgreSQL', 'Redis'],
+      github: 'https://github.com/PlatonicM/ai-growth-engine',
+    },
+  ],
+  education: {
+    degree: 'Bachelor of Computer Application (BCA)',
+    school: 'Prerna College Of Commerce (RTMNU)',
+    location: 'Nagpur, MH',
+    period: '2019 – 2022',
+  },
+  links: [
+    { label: 'Email', value: 'mrunalchaudhari666@gmail.com', href: 'mailto:mrunalchaudhari666@gmail.com' },
+    { label: 'Phone', value: '+91 7030087366', href: 'tel:+917030087366' },
+    { label: 'LinkedIn', value: 'mrunal-chaudhari03', href: 'https://linkedin.com/in/mrunal-chaudhari03' },
+    { label: 'GitHub', value: 'PlatonicM', href: 'https://github.com/PlatonicM' },
+  ],
+};
+
+export default resumeData;
+export const { profile, skills, experience, projects, education, links } = resumeData;
