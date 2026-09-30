@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useResume } from '../hooks/useResume';
+import { allProjects } from '../data/allProjects';
 import { useProjectFilter } from '../hooks/useProjectFilter';
 import ProjectFilterBar from '../components/ProjectFilterBar';
 import ProjectQuickViewModal from '../components/ProjectQuickViewModal';
 
 export default function Projects() {
-  const { data: resume } = useResume();
-  const rawProjects = resume?.projects || [];
+  const rawProjects = allProjects;
 
   const [activeQuickView, setActiveQuickView] = useState(null);
 

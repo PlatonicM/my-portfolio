@@ -6,8 +6,11 @@ import { useResume } from '../hooks/useResume';
 
 import StatsCounter from '../components/StatsCounter';
 
+import { allProjects } from '../data/allProjects';
+
 export default function Home() {
   const { data: resume } = useResume();
+  const displayProjects = allProjects;
   const profile = resume?.profile || {};
 
   return (
@@ -79,12 +82,12 @@ export default function Home() {
             <p className="text-slate-400 text-sm mt-1">Dive into full architectural breakdowns & stack details.</p>
           </div>
           <Link to="/projects" className="text-sm font-bold text-amber-400 hover:underline">
-            View All ({resume?.projects?.length || 5}) →
+            View All ({displayProjects.length}) →
           </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {(resume?.projects || []).slice(0, 3).map((proj, idx) => {
+          {displayProjects.slice(0, 3).map((proj, idx) => {
             const projectSlug = proj.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
             const images = {
               'Aptora': 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=80',
