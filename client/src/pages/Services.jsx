@@ -11,12 +11,12 @@ const SERVICES_LIST = [
     icon: '🤖',
     desc: 'Custom multi-agent workflows, autonomous task runners, and LLM integrations fine-tuned for high precision.',
     features: [
-      'Multi-Agent System Design (AgentForge)',
+      'Multi-Agent System Design (Agent-X)',
       'Custom LLM Prompting & API Integration',
       'Automated Task Execution & Monitoring',
       'Fine-Tuning & Vector Store Retrieval (RAG)',
     ],
-    projects: ['Agentforge', 'Exam_Forge', 'ai-growth-engine'],
+    projects: ['Agent-X', 'Aptora', 'ai-growth-engine'],
   },
   {
     title: 'Full-Stack Web Applications',

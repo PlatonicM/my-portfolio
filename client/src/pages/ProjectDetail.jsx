@@ -3,13 +3,13 @@ import { useParams, Link } from 'react-router-dom';
 import { useResume } from '../hooks/useResume';
 
 const projectDetails = {
-  'examforge-ai': {
-    id: 'examforge-ai',
-    name: 'ExamForge-AI',
+  'aptora': {
+    id: 'aptora',
+    name: 'Aptora',
     subtitle: 'AI-Powered Exam Preparation & Study Intelligence Platform',
     desc: 'Developed responsive frontend workflows for goal management, document library, notes, flashcards, planner, mock tests, and progress tracking. Engineered document upload workflows supporting educational content with FastAPI backend.',
     fullDescription: `
-ExamForge-AI is an intelligent learning ecosystem designed to revolutionize how students prepare for exams. By leveraging Advanced Retrieval-Augmented Generation (RAG) and Optical Character Recognition (OCR), ExamForge-AI ingests textbooks, hand-written lecture notes, and syllabus PDFs, converting them into structured flashcard decks, adaptive mock examinations, and smart study planners.
+Aptora is an intelligent learning ecosystem designed to revolutionize how students prepare for exams. By leveraging Advanced Retrieval-Augmented Generation (RAG) and Optical Character Recognition (OCR), Aptora ingests textbooks, hand-written lecture notes, and syllabus PDFs, converting them into structured flashcard decks, adaptive mock examinations, and smart study planners.
     `,
     category: 'AI Platform & EdTech',
     role: 'Lead Full-Stack Developer',
@@ -29,7 +29,7 @@ ExamForge-AI is an intelligent learning ecosystem designed to revolutionize how 
       'JWT Authentication & RBAC user access control for multi-tenant student workflows.',
     ],
     liveUrl: '#',
-    githubUrl: 'https://github.com/Aniket-Athanikar/Exam_Forge',
+    githubUrl: 'https://github.com/Aniket-Athanikar/Aptora',
   },
   'ats-resume-builder': {
     id: 'ats-resume-builder',
@@ -121,15 +121,15 @@ It empowers senior industry mentors and instructors to publish structured video 
     liveUrl: '#',
     githubUrl: 'https://github.com/PlatonicM/Mnetor',
   },
-  'agentforge': {
-    id: 'agentforge',
-    name: 'AgentForge',
+  'agent-x': {
+    id: 'agent-x',
+    name: 'Agent-X',
     subtitle: 'Autonomous AI Agent & Multi-Agent Workflow Orchestration Framework',
     desc: 'Architected a multi-agent AI orchestration platform. Designed DAG-based agent execution graphs, function-calling tool registries, persistent vector memory, and visual control dashboards for complex autonomous workflows.',
     fullDescription: `
-AgentForge is a modular framework and developer toolkit for constructing, testing, and orchestrating autonomous AI agents and multi-agent teams.
+Agent-X is a modular framework and developer toolkit for constructing, testing, and orchestrating autonomous AI agents and multi-agent teams.
 
-By representing agent execution flows as Directed Acyclic Graphs (DAGs), AgentForge enables agents to collaborate, share global context, invoke custom API tools, search external knowledge bases, and maintain persistent long-term memory across long-running tasks.
+By representing agent execution flows as Directed Acyclic Graphs (DAGs), Agent-X enables agents to collaborate, share global context, invoke custom API tools, search external knowledge bases, and maintain persistent long-term memory across long-running tasks.
     `,
     category: 'AI Agents & Systems',
     role: 'AI & Backend Architect',
@@ -149,7 +149,7 @@ By representing agent execution flows as Directed Acyclic Graphs (DAGs), AgentFo
       'React & TypeScript control center displaying live agent trajectories, tool inputs/outputs, and token metrics.',
     ],
     liveUrl: '#',
-    githubUrl: 'https://github.com/Aniket-Athanikar/Agentforge',
+    githubUrl: 'https://github.com/Aniket-Athanikar/Agent-X',
   },
   'freshvegee': {
     id: 'freshvegee',
@@ -313,11 +313,11 @@ export default function ProjectDetail() {
       );
       if (found) {
         const fallbackImages = {
-          'examforge-ai': 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80',
+          'aptora': 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80',
           'ai-bos': 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=80',
           'ats-resume-builder': 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&auto=format&fit=crop&q=80',
           'mentor': 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop&q=80',
-          'agentforge': 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80',
+          'agent-x': 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80',
           'freshvegee': 'https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=1200&auto=format&fit=crop&q=80',
           'amazon-scraper': 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&auto=format&fit=crop&q=80',
           'sugarrush': 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&auto=format&fit=crop&q=80',

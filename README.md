@@ -49,7 +49,7 @@ graph TD
    - System PDF downloader and print-to-PDF triggers.
 
 2. **Featured Engineering Projects Showcase**
-   - Deep-dive case studies for flagship applications: **ExamForge-AI** and **AI-BOS** ([Projects.jsx](file:///c:/Users/mruna/Downloads/my%20protfliow/client/src/pages/Projects.jsx) & [ProjectDetail.jsx](file:///c:/Users/mruna/Downloads/my%20protfliow/client/src/pages/ProjectDetail.jsx)).
+   - Deep-dive case studies for flagship applications: **Aptora** and **AI-BOS** ([Projects.jsx](file:///c:/Users/mruna/Downloads/my%20protfliow/client/src/pages/Projects.jsx) & [ProjectDetail.jsx](file:///c:/Users/mruna/Downloads/my%20protfliow/client/src/pages/ProjectDetail.jsx)).
    - Detailed technical stack pills, key feature lists, and architectural breakdowns.
 
 3. **Privacy-Focused Real-Time Location Map**

@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 
 const SKILLS_DATA = [
   { name: 'React.js / Vite', category: 'Full-Stack', level: 95, icon: '⚛️', color: 'from-cyan-400 to-blue-600', description: 'Modern SPA development, custom hooks, state management, framer-motion, TailwindCSS.', projects: ['ATS-Resume-Builder', 'SugarRush', 'FreshVegee'] },
-  { name: 'Node.js & Express', category: 'Full-Stack', level: 90, icon: '🟢', color: 'from-emerald-400 to-green-600', description: 'REST APIs, middleware architecture, authentication, rate limiting, MongoDB integration.', projects: ['Mentor', 'Exam_Forge', 'amazon-scraper'] },
-  { name: 'Python & AI Engineering', category: 'AI & Agentic', level: 92, icon: '🐍', color: 'from-amber-400 to-yellow-500', description: 'Agentic workflows, prompt engineering, LLM fine-tuning, PyTorch, PySpark, data processing.', projects: ['Agentforge', 'ai-growth-engine', 'Exam_Forge'] },
+  { name: 'Node.js & Express', category: 'Full-Stack', level: 90, icon: '🟢', color: 'from-emerald-400 to-green-600', description: 'REST APIs, middleware architecture, authentication, rate limiting, MongoDB integration.', projects: ['Mentor', 'Aptora', 'amazon-scraper'] },
+  { name: 'Python & AI Engineering', category: 'AI & Agentic', level: 92, icon: '🐍', color: 'from-amber-400 to-yellow-500', description: 'Agentic workflows, prompt engineering, LLM fine-tuning, PyTorch, PySpark, data processing.', projects: ['Agent-X', 'ai-growth-engine', 'Aptora'] },
   { name: 'MongoDB & Mongoose', category: 'Database', level: 88, icon: '🍃', color: 'from-emerald-500 to-teal-700', description: 'Document modeling, aggregation pipelines, real-time sync, indexing, fallback persistence.', projects: ['ATS-Resume-Builder', 'FreshVegee', 'Mentor'] },
   { name: 'Web Scraping & Puppeteer', category: 'Scraping', level: 94, icon: '🕷️', color: 'from-purple-400 to-indigo-600', description: 'High-volume web extraction, proxy rotation, CAPTCHA bypass, headless browser automation.', projects: ['amazon-scraper', 'ai-growth-engine'] },
   { name: 'TailwindCSS & Glassmorphism', category: 'Full-Stack', level: 96, icon: '🎨', color: 'from-sky-400 to-cyan-500', description: 'Custom design systems, responsive dark-mode UIs, micro-animations, premium layouts.', projects: ['ATS-Resume-Builder', 'SugarRush', 'Vegee'] },
   { name: 'PySpark & Data Pipelines', category: 'Data & Cloud', level: 85, icon: '🔥', color: 'from-orange-400 to-rose-600', description: 'Large-scale distributed data processing, ETL automation, dataset transformation.', projects: ['ai-growth-engine'] },
-  { name: 'Docker & DevOps', category: 'Data & Cloud', level: 82, icon: '🐳', color: 'from-blue-400 to-indigo-500', description: 'Containerization, environment isolation, deployment automation, GitHub Actions CI/CD.', projects: ['Agentforge', 'amazon-scraper'] },
+  { name: 'Docker & DevOps', category: 'Data & Cloud', level: 82, icon: '🐳', color: 'from-blue-400 to-indigo-500', description: 'Containerization, environment isolation, deployment automation, GitHub Actions CI/CD.', projects: ['Agent-X', 'amazon-scraper'] },
 ];
 
 export default function TechRadar() {

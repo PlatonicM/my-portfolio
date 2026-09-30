@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 const SERVICE_TYPES = [
-  { id: 'ai', name: '🤖 AI & Agentic Workflow Engineering', baseDays: 7, desc: 'AgentForge LLM workflows, custom AI integrations, automated task runners.' },
+  { id: 'ai', name: '🤖 AI & Agentic Workflow Engineering', baseDays: 7, desc: 'Agent-X LLM workflows, custom AI integrations, automated task runners.' },
   { id: 'fullstack', name: '⚛️ Full-Stack Web App Development', baseDays: 5, desc: 'MERN stack / Vite web apps, scalable MongoDB backends, responsive dark mode UI.' },
   { id: 'scraper', name: '🕷️ High-Volume Web Scraping Engine', baseDays: 4, desc: 'Amazon / E-commerce scrapers, data pipelines, proxy handling, API exports.' },
   { id: 'ats', name: '📄 ATS Resume & Portfolio Suite', baseDays: 3, desc: 'Automated resume parser, match scoring engine, PDF generators.' },

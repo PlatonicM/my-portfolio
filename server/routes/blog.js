@@ -7,8 +7,8 @@ const fallback = [
   {
     _id: '6ab0afeb76f8f2a7687d3651',
     id: '6ab0afeb76f8f2a7687d3651',
-    slug: 'examforge-ai-architecture',
-    title: 'Building ExamForge-AI: Scalable RAG & Document Intelligence',
+    slug: 'aptora-architecture',
+    title: 'Building Aptora: Scalable RAG & Document Intelligence',
     subtitle: 'How we structured Next.js, FastAPI, Zod, and OCR for real-time exam prep',
     excerpt: 'An inside engineering look at building an AI-powered study companion with instant flashcard generation, mock tests, and PDF document analysis.',
     tag: 'AI Architecture',
@@ -16,9 +16,9 @@ const fallback = [
     date: 'Aug 15, 2026',
     readTime: '6 min read',
     coverImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80',
-    projectId: 'examforge-ai',
+    projectId: 'aptora',
     content: `## System Architecture & Technical Vision
-ExamForge-AI is engineered to transform unstructured study materials—textbooks, PDFs, and lecture slides—into dynamic assessment engines. By combining Optical Character Recognition (OCR) with Retrieval-Augmented Generation (RAG), the system generates validated flashcards, practice questions, and goal-tracking analytics.
+Aptora is engineered to transform unstructured study materials—textbooks, PDFs, and lecture slides—into dynamic assessment engines. By combining Optical Character Recognition (OCR) with Retrieval-Augmented Generation (RAG), the system generates validated flashcards, practice questions, and goal-tracking analytics.
 
 ### Core Stack & Layered Responsibilities
 1. **Frontend Layer (Next.js 14 & TypeScript)**: Built using React Hook Form, Zod schema validation, and Framer Motion for smooth step-by-step UI flows.

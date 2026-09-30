@@ -26,15 +26,15 @@ export default function Blog() {
     excerpt: '',
     content: '',
     coverImage: '',
-    projectId: 'examforge-ai',
+    projectId: 'aptora',
   });
 
   const fallbackBlogs = [
     {
-      _id: 'blog-examforge-ai',
-      id: 'blog-examforge-ai',
-      slug: 'examforge-ai-architecture',
-      title: 'Building ExamForge-AI: Scalable RAG & Document Intelligence',
+      _id: 'blog-aptora',
+      id: 'blog-aptora',
+      slug: 'aptora-architecture',
+      title: 'Building Aptora: Scalable RAG & Document Intelligence',
       subtitle: 'How we structured Next.js 14, FastAPI, Zod, and OCR for real-time exam prep',
       excerpt: 'An inside engineering look at building an AI-powered study companion with instant flashcard generation, mock tests, and PDF document analysis.',
       tag: 'AI Architecture',
@@ -42,9 +42,9 @@ export default function Blog() {
       date: 'Aug 15, 2026',
       readTime: '7 min read',
       coverImage: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=80',
-      projectId: 'examforge-ai',
+      projectId: 'aptora',
       content: `## System Architecture & Technical Vision
-ExamForge-AI is engineered to transform unstructured study materials—textbooks, PDFs, and lecture slides—into dynamic assessment engines. By combining Optical Character Recognition (OCR) with Retrieval-Augmented Generation (RAG), the system generates validated flashcards, practice questions, and goal-tracking analytics.
+Aptora is engineered to transform unstructured study materials—textbooks, PDFs, and lecture slides—into dynamic assessment engines. By combining Optical Character Recognition (OCR) with Retrieval-Augmented Generation (RAG), the system generates validated flashcards, practice questions, and goal-tracking analytics.
 
 ### Core Stack & Layered Responsibilities
 1. **Frontend Layer (Next.js 14 & TypeScript)**: Built using React Hook Form, Zod schema validation, and Framer Motion for smooth step-by-step UI flows.
@@ -109,10 +109,10 @@ Modern Automated Applicant Tracking Systems (ATS) reject up to 75% of candidate 
 - Zero formatting degradation across all major ATS parsers (Workday, Greenhouse, Lever).`
     },
     {
-      _id: 'blog-agentforge',
-      id: 'blog-agentforge',
-      slug: 'agentforge-multi-agent-dag',
-      title: 'Building AgentForge: DAG-Based Autonomous Multi-Agent Workflows',
+      _id: 'blog-agent-x',
+      id: 'blog-agent-x',
+      slug: 'agent-x-multi-agent-dag',
+      title: 'Building Agent-X: DAG-Based Autonomous Multi-Agent Workflows',
       subtitle: 'Orchestrating stateful LLM agent nodes, custom function-calling tools, and vector memory',
       excerpt: 'Deep dive into constructing Directed Acyclic Graph (DAG) execution engines for multi-agent AI collaboration and tool usage.',
       tag: 'AI Agents & DAGs',
@@ -120,7 +120,7 @@ Modern Automated Applicant Tracking Systems (ATS) reject up to 75% of candidate 
       date: 'Feb 18, 2026',
       readTime: '10 min read',
       coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80',
-      projectId: 'agentforge',
+      projectId: 'agent-x',
       content: `## Why DAGs for Autonomous AI Agents?
 Single-prompt LLM agents suffer from hallucination and lack of structured task control. Representing agent workflows as Directed Acyclic Graphs (DAGs) guarantees execution ordering, state isolation, and deterministic tool execution.
 
@@ -232,7 +232,7 @@ In enterprise web platforms, API latency degradation often stems from unindexed 
       excerpt: post.excerpt || '',
       content: post.content || '',
       coverImage: post.coverImage || '',
-      projectId: post.projectId || 'examforge-ai',
+      projectId: post.projectId || 'aptora',
     });
     setEditMode(true);
   };
@@ -246,7 +246,7 @@ In enterprise web platforms, API latency degradation often stems from unindexed 
       excerpt: '',
       content: '',
       coverImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80',
-      projectId: 'examforge-ai',
+      projectId: 'aptora',
     });
     setEditMode(true);
   };
@@ -294,7 +294,7 @@ In enterprise web platforms, API latency degradation often stems from unindexed 
             Articles & Case Studies
           </h1>
           <p className="text-slate-300 text-xs sm:text-sm mt-1 font-medium">
-            Technical breakdowns matching real projects like ExamForge-AI and AI-BOS.
+            Technical breakdowns matching real projects like Aptora and AI-BOS.
           </p>
         </div>
 
@@ -368,7 +368,7 @@ In enterprise web platforms, API latency degradation often stems from unindexed 
                     onChange={(e) => setBlogForm({ ...blogForm, projectId: e.target.value })}
                     className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white focus:border-amber-400 focus:outline-none font-mono"
                   >
-                    <option value="examforge-ai">ExamForge-AI</option>
+                    <option value="aptora">Aptora</option>
                     <option value="ai-bos">AI-BOS</option>
                     <option value="full-stack">Full-Stack Engineering</option>
                   </select>

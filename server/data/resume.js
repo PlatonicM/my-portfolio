@@ -42,12 +42,12 @@ export const resumeData = {
   ],
   projects: [
     {
-      name: 'ExamForge-AI',
+      name: 'Aptora',
       subtitle: 'AI-Powered Exam Preparation Platform',
       desc: 'Developed responsive frontend workflows for goal management, document library, notes, flashcards, and progress tracking. Built reusable React/Next.js components with form validation and client-side state handling.',
       stack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'React Hook Form', 'Zod', 'TanStack Query', 'AI/LLM', 'OCR'],
       link: null,
-      github: 'https://github.com/Aniket-Athanikar/Exam_Forge',
+      github: 'https://github.com/Aniket-Athanikar/Aptora',
     },
     {
       name: 'AI-BOS',
@@ -74,12 +74,12 @@ export const resumeData = {
       github: 'https://github.com/PlatonicM/Mnetor',
     },
     {
-      name: 'AgentForge',
+      name: 'Agent-X',
       subtitle: 'Autonomous AI Agent & Multi-Agent Orchestration Framework',
       desc: 'Architected a multi-agent AI orchestration platform. Designed DAG-based agent execution graphs, function-calling tool registries, persistent vector memory, and visual control dashboards for complex autonomous workflows.',
       stack: ['Python', 'FastAPI', 'React', 'TypeScript', 'LangChain', 'LlamaIndex', 'Vector DB', 'Redis', 'Gemini API', 'Docker'],
       link: null,
-      github: 'https://github.com/Aniket-Athanikar/Agentforge',
+      github: 'https://github.com/Aniket-Athanikar/Agent-X',
     },
     {
       name: 'FreshVegee',
